@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Age Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 id="title">Age Calculator</h1>
+
+<div class="controls">
+
+<label id="dobLabel">Date of Birth</label>
+<input type="date" id="dob">
+
+<button id="calculateBtn">Calculate Age</button>
+
+<select id="language">
+<option value="en">English</option>
+<option value="tr">Türkçe</option>
+<option value="es">Español</option>
+<option value="de">Deutsch</option>
+<option value="fr">Français</option>
+<option value="it">Italiano</option>
+<option value="pt">Português</option>
+<option value="ru">Русский</option>
+<option value="ar">العربية</option>
+<option value="zh">中文</option>
+<option value="ja">日本語</option>
+<option value="ko">한국어</option>
+<option value="hi">हिन्दी</option>
+</select>
+
+</div>
+
+<div id="result" class="result">
+
+<p><span id="years">0</span> <span id="yearsLabel">Years</span></p>
+<p><span id="months">0</span> <span id="monthsLabel">Months</span></p>
+<p><span id="days">0</span> <span id="daysLabel">Days</span></p>
+<p><span id="hours">0</span> <span id="hoursLabel">Hours</span></p>
+<p><span id="minutes">0</span> <span id="minutesLabel">Minutes</span></p>
+<p><span id="seconds">0</span> <span id="secondsLabel">Seconds</span></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
